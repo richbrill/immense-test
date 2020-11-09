@@ -40,5 +40,6 @@
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^8.2.0"
-  }
+  },
+  "proxy": "https://platform.immense.ai/api/v2"
 }
