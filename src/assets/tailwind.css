@@ -1,8 +1,13 @@
 @tailwind base;
 @tailwind components;
 
-body {
+body, .leaflet-container {
   font-family: Overpass;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  box-shadow: none;
+  border-radius: 5px;
 }
 
 @tailwind utilities;
