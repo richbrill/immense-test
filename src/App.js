@@ -1,5 +1,6 @@
 import Navigation from "./components/Navigation";
 import Sidebar from "./components/Sidebar";
+import Map from "./components/Map";
 import "./assets/main.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Navigation />
       <div className="flex flex-1 w-full h-full">
         <Sidebar />
+        <Map />
       </div>
     </div>
   );
